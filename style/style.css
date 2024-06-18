@@ -1,7 +1,12 @@
-.posts{
+.posts {
     margin-top: 50px;
 }
 
-.card{
-    width: 100%!important;
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+.card {
+    width: 100% !important;
 }
