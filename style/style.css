@@ -2,10 +2,31 @@
     margin-top: 50px;
 }
 
+
+.card-title {
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-text {
+    padding: 5px;
+    text-overflow: ellipsis;
+    margin: 0;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 li {
     list-style-type: none;
     /* Убираем маркеры */
 }
+
+
 
 .text-success {
     color: blue !important;
@@ -18,4 +39,12 @@ li {
 .card {
     margin-bottom: 10px;
     width: 100% !important;
+}
+
+.post {
+    margin-top: 30px;
+}
+
+.title-comments {
+    margin-top: 50px;
 }
